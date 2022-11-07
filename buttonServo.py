@@ -4,7 +4,7 @@ import time
 GPIO.setmode(GPIO.BOARD)
 
 GPIO.setup(11, GPIO.OUT)
-servo1 = GPIO.PWM(11,50)
+servo1 = GPIO.PWM(11,70)
 
 servo1.ChangeDutyCycle(0)
 
