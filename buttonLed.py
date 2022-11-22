@@ -1,7 +1,7 @@
 import time,RPi.GPIO as GPIO
 
-button = 26
-led = 13
+button = 13
+led = 26
 
 def setup():
     GPIO.setmode(GPIO.BCM)
@@ -21,6 +21,7 @@ try:
                 
 except KeyboardInterrupt:
     GPIO.cleanup()
+    
                 
                 
                 
