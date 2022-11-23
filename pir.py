@@ -1,8 +1,8 @@
 from gpiozero import LED
 from gpiozero import MotionSensor
 
-led = LED(17)
-pir = MotionSensor(26)
+led = LED(26)
+pir = MotionSensor(4)
 led.off()
 
 while True:
