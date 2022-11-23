@@ -1,3 +1,8 @@
+from RPi import GPIO
+from gpiozero import MotionSensor, LED
+
+from keypad import inputs, output
+
 
 def libary():
     from gpiozero import LED,MotionSensor
