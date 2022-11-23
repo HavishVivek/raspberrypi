@@ -19,7 +19,7 @@ try:
         if GPIO.input(13) == False:
             #print("3")
             button_count += 1
-            print("button  count is ")
+            print("button  count is")
             print(button_count)
             
             if GPIO.input(slide) == False:
