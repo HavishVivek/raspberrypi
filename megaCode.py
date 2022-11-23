@@ -26,7 +26,3 @@ def keypad():
     r4 = ['*', '0', '#']
     
 keypad()
-
-def loop():
-    
-    
