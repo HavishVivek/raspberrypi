@@ -9,10 +9,10 @@ servo1 = GPIO.PWM(11,50)
 servo1.ChangeDutyCycle(0)
 
 servo1.start(0)
-print(" Wating for 2 seconds")
+print(" Waiting for 2 seconds")
 time.sleep(2)
 
-print("Rotatong 180 degrees in 10 steps")
+print("Rotating 180 degrees in 10 steps")
 
 duty = 2
 
@@ -31,7 +31,7 @@ print("Turing back to 90 degrees for 2 seconds")
 servo1.ChangeDutyCycle(7)
 time.sleep(2)
 print(duty)
-print("Turning back to 0 degress")
+print("Turning back to 0 degrees")
 servo1.ChangeDutyCycle(2)
 time.sleep(0.5)
 servo1.ChangeDutyCycle(0)
